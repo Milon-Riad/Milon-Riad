@@ -1,0 +1,134 @@
+{
+  "Author": "SHAHADAT SAHU",
+  "version": "2.0.1",
+  "language": "en",
+  "DeveloperMode": false,
+  "autoCreateDB": true,
+  "autoClean": true,
+  "notiGroup": true,
+  "NOTIFICATION": true,
+  "EMAIL": "your@email.com",
+  "PASSWORD": "your_password",
+  "OTPKEY": "",
+  "BOTNAME": "─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭",
+  "PREFIX": "/",
+
+  "reactUnsend": ["😡", "🤧", "😤", "😠"],
+
+  "ADMINBOT": [
+    "100001039692046",
+    "61586663640809",
+    "100044713412032"
+  ],
+  "NDH": [
+    "100044713412032"
+  ],
+  "adminOnly": false,
+  "ndhOnly": false,
+  "adminPaOnly": false,
+
+  "APPSTATEPATH": "appstate.json",
+
+  "DATABASE": {
+    "sqlite": {
+      "storage": "data.sqlite"
+    }
+  },
+
+  "commandDisabled": [],
+  "eventDisabled": [],
+
+  "System": {
+    "autoRestart": true,
+    "restartInterval": 86400,
+    "errorLog": true,
+    "saveCrashLogs": true,
+    "maxMemoryLimit": "1024mb"
+  },
+
+  "AntiAbuse": {
+    "blockSpam": true,
+    "spamThreshold": 5,
+    "autoBanSpam": true,
+    "protectAdmin": true,
+    "protectBot": true,
+    "notifyAdminOnAbuse": true
+  },
+
+  "FCAOption": {
+    "selfListen": false,
+    "listenEvents": true,
+    "listenTyping": false,
+    "updatePresence": false,
+    "forceLogin": false,
+    "autoMarkDelivery": false,
+    "autoMarkRead": false,
+    "autoReconnect": true,
+    "logRecordSize": 100,
+    "online": false,
+    "emitReady": false,
+    "userAgent": "Mozilla/5.0"
+  },
+
+  "Modules": {
+    "daily": {
+      "cooldownTime": 43200000,
+      "rewardCoin": 1000000000
+    },
+    "work": {
+      "cooldownTime": 1200000
+    },
+    "cave": {
+      "cooldownTime": 2000000
+    },
+    "cavevip": {
+      "cooldownTime": 1200000
+    },
+    "lixi": {
+      "cooldownTime": 1100000
+    },
+    "anime": {
+      "cooldownTime": 1200000
+    },
+    "fish": {
+      "cooldownTime": 1000000
+    },
+    "job": {
+      "cooldownTime": 5000
+    },
+    "diemdanh": {
+      "cooldownTime": 3000000
+    },
+    "checktt": {
+      "maxColumn": 300
+    },
+    "xidach": {
+      "maxPlayers": 5,
+      "normalWinBonus": 1,
+      "superWinBonus": 2,
+      "epicWinBonus": 4
+    },
+    "loto": {
+      "maxPlayers": 10,
+      "getDelay": 8
+    }
+  },
+
+  "APIKEYS": {
+    "TENOR": "...",
+    "INSTAGRAM": "...",
+    "YOUTUBE_MAIN": "..."
+  },
+
+  "Security": {
+    "caesar": {
+      "caeserPassword": "123456"
+    },
+    "log": {
+      "enable": true
+    },
+    "god": {
+      "enable": true
+    }
+  }
+}
